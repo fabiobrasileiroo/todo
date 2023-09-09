@@ -6,9 +6,9 @@ import {AddArea} from './components/AddArea';
 
 const App = () => {
     const [list, setList] = useState<Item[]>([
-        { id: 1, name: 'Ler 2 vezes ao dia', done: false},
-        { id: 2, name: 'Programar mais 3h/1h estudo ', done: true},
-        {id:3, name: 'Treina inglês', done: false},
+        { id: 1, name: 'Ler duas vezes ao dia.', done: false},
+        { id: 2, name: 'Programar por dia mais 3 horas e estudar por 1 hora pelo menos.', done: true},
+        {id:3, name: 'Treinar inglês', done: false},
     ]);
     
     const handleAddTask = (taskName: string) => {
